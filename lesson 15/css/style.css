@@ -1,0 +1,11 @@
+.text--bold p {
+   color: rgb(26, 90, 90);
+}
+
+.parent .child {
+   color: rgb(232, 141, 198);
+}
+
+a[href="#blog"] {
+color: #c43737;
+}
