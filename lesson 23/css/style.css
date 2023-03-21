@@ -1,0 +1,24 @@
+.wrapper {
+  padding: 100px;
+  height: 100vh;
+}
+
+.block {
+  height: 100%;
+  box-shadow: 0 0 10px rgb(83, 83, 83);
+  border-radius: 5px;
+
+  background-image: url(../img/boat.jpeg), linear-gradient(#b94343, #454da2);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+/* ----------------------------------------------------------- */
+
+.block-1 {
+  height: 100%;
+  box-shadow: 0 0 10px rgb(83, 83, 83);
+  border-radius: 5px;
+
+  background: url(../img/boat.jpeg) 50% /400px no-repeat, linear-gradient(#a9b943, #454da2);
+}
