@@ -1,0 +1,36 @@
+body {
+   background-color: #8673bb7d;
+   color: #000;
+   padding-top: 100px;
+}
+/* ------------------------------------------------------ */
+.block {
+   margin: 0 auto;
+   width: 500px;
+   height: 150px;
+   border-radius: 10px;  
+   background-color: #fff;
+
+   border: 5px solid #000;
+}
+
+.block:hover {
+   border: 5px solid #d27d15;
+   transition-duration: 3s;
+   transition-delay: 2s;
+}
+/* ------------------------------------------------------ */
+.block-1 {
+   margin: 50px auto;
+   width: 500px;
+   height: 150px;
+   border-radius: 10px;  
+   background-color: #fff;
+
+   border: 5px solid #000;
+}
+
+.block-1:hover {
+   border: 5px solid #d27d15;
+   transition: 2s 3s;
+}
