@@ -1,0 +1,13 @@
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+.menu__item:first-child:hover {
+  color: rgb(166, 72, 72);
+  transition: .5s;
+}
