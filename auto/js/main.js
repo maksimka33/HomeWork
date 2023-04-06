@@ -17,3 +17,11 @@ $(function () {
   var mixer = mixitup('.blog__cards');
 
 });
+
+$(document).ready(function(){
+  $('.testimonial__slider').slick({
+    slidesToShow: 2,
+    variableWidth: true,
+    // arrows: false
+  });
+});
