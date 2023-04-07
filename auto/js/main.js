@@ -20,8 +20,17 @@ $(function () {
 
 $(document).ready(function(){
   $('.testimonial__slider').slick({
+    arrows: false,
     slidesToShow: 2,
-    variableWidth: true,
-    // arrows: false
+    dots: true,
+    appendArrows: $('.testimonial__slider-arrows'),
   });
+  $('.testimonial__slider-item').on('click', function (e) {
+    e.preventDefault()
+    $('.testimonial__slider').slick('slickPrev')
+  })
+  $('.testimonial__slider-item').on('click', function (e) {
+    e.preventDefault()
+    $('.testimonial__slider').slick('slickNext')
+  })
 });
