@@ -745,42 +745,42 @@ align-items: center;
   transform: scale(1.1);
 }
 
-.brand__logo-1:hover {
+.brand__logo-1:hover svg {
   fill: #8bad65;
 } 
 
-.brand__logo-2:hover {
+.brand__logo-2:hover svg {
   fill: #ad7565;
 } 
 
-.brand__logo-3:hover {
+.brand__logo-3:hover svg {
   fill: #656cad;
 } 
 
-.brand__logo-4:hover {
+.brand__logo-4:hover svg {
   fill: #a465ad;
 } 
 
-.brand__logo-5:hover {
+.brand__logo-5:hover svg {
   fill: #ad6584;
 } 
 
-.brand__logo-6:hover {
+.brand__logo-6:hover svg {
   fill: #a4ad65;
 } 
 
-.brand__logo-7:hover {
+.brand__logo-7:hover svg {
   fill: #65a4ad;
 } 
 
-.brand__logo-8:hover {
+.brand__logo-8:hover svg {
   fill: #ad65a8;
 } 
 
-.brand__logo-9:hover {
+.brand__logo-9:hover svg {
   fill: #a94141;
 } 
 
-.brand__logo-10:hover {
+.brand__logo-10:hover svg {
   fill: #1e7896;
 } 
