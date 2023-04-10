@@ -29,6 +29,7 @@ body {
   line-height: 64px;
   color: #fff;
   cursor: pointer;
+  white-space: nowrap;
 }
 
 .title {
@@ -512,9 +513,14 @@ body {
   margin-bottom: 75px;
 }
 
+.testimonial__item-autor-desk {
+  white-space: nowrap;
+}
+
 .testimonial__slider-wraper {
   position: relative;
 }
+
 
 .testiminial__item-wrapper {
   padding: 0 23px;
@@ -542,6 +548,7 @@ body {
   margin-bottom: 24px;
   display: flex;
   align-items: center;
+  width: 260px;
 }
 
 .testimonial__item-avatar {
@@ -557,7 +564,6 @@ body {
 .testimonial__item-avatar img {
   width: 100%;
   height: auto;
-  margin: 0 auto;
 }
 
 .testimonial__item-autor-name {
@@ -617,20 +623,164 @@ align-items: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 46px;
-  height: 46px;
+  width: 48px;
+  height: 48px;
   border-radius: 50%;
-  background: #fff;
+  background-color: #fff;
   margin-right: 25px;
   cursor: pointer;
+  transition: background-color 0.3s ease-in, box-shadow 0.3s ease-in;
 }
 
 .testimonial__slider-item:hover {
-  width: 62px;
-  height: 62px;
-  background: #000;
+  background-color: #1e1b1b;
+  box-shadow: 0 0 0 7px #1e1b1b;
+}
+
+.testimonial__slider-svg {
+  fill:#1e1b1b;
+  transition: fill 0.3s ease-in;
+}
+
+.testimonial__slider-item:hover .testimonial__slider-svg {
+  fill: #f2f2f2;
 }
 
 .testimonial__slider-item:last-child {
   margin-right: 0px;
 }
+
+.section-cta {
+  background: url(".././img/cta-img.jpg") no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.section-cta__content {
+  padding: 128px 80px 128px 61px;
+  max-width: 730px;
+  background-color: #ff6433;
+}
+
+.section-cta__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.4;
+  letter-spacing: -0.03em;
+  color: #FFFFFF;
+  margin-bottom: 48px;
+}
+
+.button--black {
+  background-color: #1E1B1B;;
+}
+
+.experience {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  background: #f2f2f2;;
+}
+
+.experience__row{
+  display: flex;
+  justify-content: space-between;
+}
+
+.experience__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.experience__number {
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 1.31;
+  letter-spacing: -0.03em;
+  color: #661CE7;
+}
+
+.experience__desc {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: -0.03em;
+  opacity: 0.7;
+}
+
+.brands {
+  padding-top: 128px;
+  padding-bottom: 89px;
+  background: #e2e6e9;
+}
+
+.brands__header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.brands__title {
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 1.31;
+  letter-spacing: -0.03em;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.brands__logos {
+  margin: 0 -5px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 38px;
+  row-gap: 30px;
+}
+
+.brand__logo {
+  fill: #1E1B1B;
+  cursor: pointer;
+  transition: fill .3s ease-in, transform .3s ease-in;
+}
+
+.brand__logo:hover {
+  transform: scale(1.1);
+}
+
+.brand__logo-1:hover {
+  fill: #8bad65;
+} 
+
+.brand__logo-2:hover {
+  fill: #ad7565;
+} 
+
+.brand__logo-3:hover {
+  fill: #656cad;
+} 
+
+.brand__logo-4:hover {
+  fill: #a465ad;
+} 
+
+.brand__logo-5:hover {
+  fill: #ad6584;
+} 
+
+.brand__logo-6:hover {
+  fill: #a4ad65;
+} 
+
+.brand__logo-7:hover {
+  fill: #65a4ad;
+} 
+
+.brand__logo-8:hover {
+  fill: #ad65a8;
+} 
+
+.brand__logo-9:hover {
+  fill: #a94141;
+} 
+
+.brand__logo-10:hover {
+  fill: #1e7896;
+} 

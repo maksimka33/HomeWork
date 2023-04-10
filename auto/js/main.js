@@ -25,11 +25,11 @@ $(document).ready(function(){
     dots: true,
     appendArrows: $('.testimonial__slider-arrows'),
   });
-  $('.testimonial__slider-item').on('click', function (e) {
+  $('.testimonial__slider-item--prev').on('click', function (e) {
     e.preventDefault()
     $('.testimonial__slider').slick('slickPrev')
   })
-  $('.testimonial__slider-item').on('click', function (e) {
+  $('.testimonial__slider-item--next').on('click', function (e) {
     e.preventDefault()
     $('.testimonial__slider').slick('slickNext')
   })
